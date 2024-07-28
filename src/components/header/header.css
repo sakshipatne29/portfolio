@@ -1,0 +1,115 @@
+/* #header {
+  background-color: black;
+}
+*/
+
+#header {
+  background-image: url("../../assets/IMG_E4836.JPG");
+  width: 100%;
+  height: 100%;
+  left: 50px;
+  /* position: relative; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#header .container {
+  background:rgba(0, 0, 0, 0.733);
+  overflow: hidden;
+  height: 598px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+
+b , span{
+  color: white;
+}
+
+.intro-part {
+  margin-right: 20px;
+  margin-top: 15vh; 
+}
+
+.header_socials a {
+  padding: 6px;
+}
+.header_socials a:hover {
+  /* box-shadow: 2px 2px 4px 3px yellowgreen; */
+  border-radius: 10px;
+}
+
+.intro-part h2 {
+  font-size: 3.5rem;
+  font-family: monospace;
+  color: white;
+}
+
+.name-part {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 45px;
+  color: grey;
+  text-align: left;
+}
+
+.desig-part {
+  font-family: inherit;
+  font-size: 20px;
+  color: white;
+}
+
+.photo-part img {
+  padding-left: 15vh;
+  width: 85vh;
+  margin-top: 15vh;
+  height: 65vh;
+}
+
+
+.btn:hover {
+  box-shadow: 5px 3px 6px white;
+  font-weight: 500;
+}
+.insta {
+  border-radius: 10px;
+  color: white;
+  background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+  background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+  background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
+}
+
+.scroll_down {
+  text-decoration: none;
+  position: absolute;
+  color: greenyellow;
+  right: -23rem;
+  bottom: 2rem;
+  transform: rotate(90deg);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.header_socials li {
+  list-style: none;
+}
+.header_socials li .tooltip{
+  position: absolute;
+  top: 55px;
+  
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+}
+.header_socials li:hover .tooltip {
+  pointer-events: auto;
+  opacity: 1;
+  text-shadow: 2px 2px 2px green;
+  transition: all 0.4s ease;
+  transform: translateY(-30%);
+}
+ 
+

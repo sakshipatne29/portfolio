@@ -1,0 +1,45 @@
+
+#about {
+    background-color: #116A7B;
+    height: 660px;
+  }
+
+  .about-part {
+    color:white;
+    padding: 15px;
+    text-align: center;
+    /* margin: 90px; */
+    margin-top: 5vh;
+    margin-left: 80px;
+    /* background-color: red; */
+  }
+
+  h5 {
+    font-family: monospace;
+  }
+
+  h2 {
+    font-family: serif;
+    margin-bottom: 12px;
+  }
+
+  p {
+    /* font-family: 'Lumanosimo', cursive; */
+    /* font-family: 'Ysabeau Infant', sans-serif; */
+    font-weight: 600;
+    font-family: monospace;
+    text-align: center;
+    font-size: 17px;
+    
+    /* font-family: 'Satisfy', cursive; */
+  }
+
+  .photo2-part img{
+    padding: 10px;
+    width: 70vh;
+    height: 70vh;
+    margin-top: 10vh;
+    border: 2.3px solid yellowgreen;
+    outline: 1px solid yellowgreen;
+    outline-offset: -10px;
+  }

@@ -1,0 +1,33 @@
+
+.navbar {
+    background-color: black;
+    height: 50px;
+}
+
+.navbar-brand:hover {
+    color:white;
+}
+
+li {
+    font-family: cursive; 
+    font-weight: 600;
+}
+
+.nav-item a {
+    color:white;    
+}
+
+
+.navbar .nav-link:hover {
+    color:greenyellow;
+    /* color: yellow; */
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 5px yellow; */
+
+    box-shadow: 3px 2px 5px greenyellow;
+}
+
+.navbar-brand {
+    font-family: "Sofia", sans-serif;
+    color: white;
+}

@@ -1,0 +1,13 @@
+#projects {
+    background-color: black;
+}
+
+.project p{
+    text-align: left;
+    color: white;
+}
+
+.heading {
+    font-size: 22px;
+    border-bottom: 2px solid yellowgreen;
+}

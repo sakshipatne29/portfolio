@@ -1,0 +1,56 @@
+#experience {
+  background-color: #116A7B;
+}
+ul li {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  /* margin-top: 3.5rem; */
+}
+
+.heading {
+  color: white;
+  font-size: 65px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.para {
+  color: white;
+  text-align: justify;
+  font-weight: 100;
+}
+
+.dash {
+  margin-top: 25px;
+  height: 350px;
+  width: 480px;
+  border: 3px solid white;
+
+}
+
+.dash_p {
+  margin-top: 60px;
+  color: white;
+  float: right;
+}
+.dash_p p{
+  text-align: right;
+  margin-left: 5px;
+}
+
+
+.dash_pp {
+  margin-top: 60px;
+  color: white;
+  float: left;
+}
+.dash_pp p{
+  text-align: left;
+  margin-left: 2px;
+}
