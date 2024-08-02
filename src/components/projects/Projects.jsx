@@ -8,11 +8,11 @@ const Projects = () => {
       <div className="container">
         <div className="row">
           <Fade direction="down">
-            <p className="title-part">Projects</p>
+            <p className="title-part mt-5">Self Projects</p>
           </Fade>
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="project">
-              <p className="heading">WebEDI ebsite</p>
+              <p className="heading">Feedback Mangement System</p>
               <p>
                 I designed a WebEDI platform for APTIV, functioning as an
                 intermediary between suppliers and consumers in the automotive
@@ -28,7 +28,7 @@ const Projects = () => {
 
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="project">
-              <p className="heading">Time & Attendance Website</p>
+              <p className="heading">Portfolio</p>
               <p>
                 I developed acomprehensive Time &Attendance system aimed at
                 managing employee attendance, leave records, and work reports

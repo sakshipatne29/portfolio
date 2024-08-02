@@ -20,7 +20,7 @@ const Experience = () => {
             </h2>
             <span className="d-flex">
               <p>Full Stack Developer, Tata Consultancy Services </p>
-              <p className="ms-auto"> May 2022 - Present</p>
+              <p className="ms-auto"> May 2023 - Present</p>
             </span>
             <ul
               className="ms-5"
@@ -34,6 +34,10 @@ const Experience = () => {
               <li>
                 Developed and maintained a responsive website from scratch using
                 React.js, improving load times by 60%.
+              </li>
+              <li>
+                Implemented authentication and authorization functionalities for
+                secure user access.
               </li>
               <li>
                 Utilized Bootstrap, an open-source framework, for additional

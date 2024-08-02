@@ -27,7 +27,7 @@ const Navbar = () => {
 
               <ul className="navbar-nav ms-auto " style={{ gap: "35px" }}>
                 <li className="nav-item">
-                  <a className="nav-link" href="#about">
+                  <a className="nav-link" href="#header">
                     About
                   </a>
                 </li>

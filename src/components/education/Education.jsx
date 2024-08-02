@@ -23,7 +23,7 @@ const Education = () => {
       <div className="container">
         <div className="row">
           <Fade direction="down">
-            <p className="title-part">Here's what I do</p>
+            <p className="title-part mt-5">Here's what I do</p>
           </Fade>
           <div className="col-lg-6 col-md-12 col-sm-12">
             <Fade direction="left">
@@ -183,7 +183,7 @@ const Education = () => {
               </div>
             </Fade>
           </div>
-        </div>
+        </div> 
       </div>
     </section>
   );
