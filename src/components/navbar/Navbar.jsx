@@ -21,7 +21,7 @@ const Navbar = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand" >
                 Sakshi's Portfolio
               </a>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
 
                 <li className="nav-item">
                   <a className="nav-link" href="#education">
-                    Skills  
+                    Skills
                   </a>
                 </li>
                 <li className="nav-item">
@@ -47,11 +47,11 @@ const Navbar = () => {
                     Projects
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" href="#">
                     Others
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

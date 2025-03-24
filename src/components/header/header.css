@@ -1,20 +1,16 @@
-/* #header {
+#header {
   background-color: black;
 }
-*/
+
 
 #header {
   background-image: url("../../assets/IMG_E4836.JPG");
-  width: 100%;
-  height: 100%;
-  left: 50px;
-  /* position: relative; */
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #header .container {
-  background:rgba(0, 0, 0, 0.733);
+  background: rgba(0, 0, 0, 0.733);
   overflow: hidden;
   height: 598px;
   width: 100%;
@@ -23,18 +19,20 @@
 }
 
 
-b , span{
+b,
+span {
   color: white;
 }
 
 .intro-part {
   margin-right: 20px;
-  margin-top: 15vh; 
+  margin-top: 15vh;
 }
 
 .header_socials a {
   padding: 6px;
 }
+
 .header_socials a:hover {
   /* box-shadow: 2px 2px 4px 3px yellowgreen; */
   border-radius: 10px;
@@ -71,6 +69,7 @@ b , span{
   box-shadow: 5px 3px 6px white;
   font-weight: 500;
 }
+
 .insta {
   border-radius: 10px;
   color: white;
@@ -93,10 +92,11 @@ b , span{
 .header_socials li {
   list-style: none;
 }
-.header_socials li .tooltip{
+
+.header_socials li .tooltip {
   position: absolute;
   top: 55px;
-  
+
   color: white;
   font-size: 15px;
   font-weight: 500;
@@ -104,6 +104,7 @@ b , span{
   pointer-events: none;
   opacity: 0;
 }
+
 .header_socials li:hover .tooltip {
   pointer-events: auto;
   opacity: 1;
@@ -111,5 +112,3 @@ b , span{
   transition: all 0.4s ease;
   transform: translateY(-30%);
 }
- 
-

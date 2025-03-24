@@ -1,11 +1,7 @@
 import React from "react";
 import "./header.css";
-import mee from "../../assets/IMG_3030.JPG";
-// import ReactPlayer from 'react-player'
-import girl from "../../assets/sakshi.png";
 import { Fade } from "react-awesome-reveal";
 import { FaGithubSquare } from "react-icons/fa";
-// import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillInstagram, AiFillTwitterSquare } from "react-icons/ai";
 
@@ -41,7 +37,7 @@ const Header = () => {
                       Fullstack Developer <br></br>
                       <span style={{ marginLeft: "85px" }}>& </span>
                       <br></br>
-                      <span> UI/UX Designer .</span>
+                      <span> UI/UX Designer</span>
                     </span>
                   </p>
                 </Fade>
@@ -49,7 +45,7 @@ const Header = () => {
             </div>
             <Fade direction="left" delay={1500}>
               <div
-                className="header_socials d-flex mt-2"
+                className="header_socials d-md-flex d-sm-block mt-2"
                 style={{
                   backgroundColor: "",
                   alignItems: "center",
@@ -117,50 +113,29 @@ const Header = () => {
                 </li>
               </div>
             </Fade>
-            <Fade direction="left" delay={1500}>
-              <a
-                className="btn mt-1 mb-2"
-                href="www.google.com"
-                role="button"
-                style={{
-                  backgroundColor: "greenyellow",
-                  color: "black",
-                  fontSize: "15px",
-                  padding: "5px",
-                  width: "20vh",
-                }}
-              >
-                Contact Me
-              </a>
+
+          </div>
+
+          <div className="col-lg-6 col-md-12 col-sm-12 ">
+            <Fade direction="right">
+              <div className="about-part">
+                <h5>Get To Know</h5>
+                <h2>About Me</h2>
+                <p>
+                  Result oriented FullStack Developer with 3+ years of experience in IT Industry, proficient in building fullstack applications. Skilled in designing and implementing efficient and scalable solutions for both front-end and back-end development. Adept at collaborating with cross-functional teams to deliver high - quality software products. Known for commitment to quick and continuous learning.
+                </p>
+              </div>
             </Fade>
           </div>
-       
-        <div className="col-lg-6 col-md-12 col-sm-12 ">
-        <Fade direction="right"  delay={2000}>
-          <div className="about-part">
-            <h5>Get To Know</h5>
-            <h2>About Me</h2>
-            <p>
-              Proactive and dynamic Full Stack Developer with expertise in
-              React.js, Node.js, and Python. Proven track record in developing
-              responsive and scalable web applications. Skilled in leading
-              projects, collaborating with business teams, and driving
-              technological advancements. Committed to delivering
-              high-performance applications and exceptional user experiences.
-              Growing professional as well personal skills.
-            </p>
-          </div>
+        </div>
+
+        <div className="col-lg-8 col-md-12 col-sm-12 ">
+          <Fade direction="right">
+            <a href="#" className="scroll_down">
+              Scroll Down
+            </a>
           </Fade>
         </div>
-      </div>
-
-      <div className="col-lg-8 col-md-12 col-sm-12 ">
-        <Fade direction="right">
-          <a href="#" className="scroll_down">
-            Scroll Down
-          </a>
-        </Fade>
-      </div>
       </div>
     </section>
   );

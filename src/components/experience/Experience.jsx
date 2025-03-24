@@ -18,11 +18,11 @@ const Experience = () => {
             >
               Work Experience
             </h2>
-            <span className="d-flex">
+            <span className="d-md-flex d-sm-block">
               <p>Tata Consultancy Services ~ <u> <b>Client - Aptiv - Automotive Technology Supplier</b></u> </p> <br></br>
               <p className="ms-auto"> Bengaluru</p>
             </span>
-            <span className="d-flex" style={{ textAlign: "left", color: "white" }}>
+            <span className="d-md-flex d-sm-block" style={{ textAlign: "left", color: "white" }}>
               <p>Full Stack Developer</p>
               <p className="ms-auto"> January 2024 - Present</p>
 
@@ -65,11 +65,11 @@ const Experience = () => {
             </ul>
             <hr style={{ color: "white" }}></hr>
 
-            <span className="d-flex">
+            <span className="d-md-flex d-sm-block">
               <p>Tata Consultancy Services ~ <u><b>Internal </b></u> </p><br></br>
               <p className="ms-auto">Bengaluru</p>
             </span>
-            <span className="d-flex" style={{ textAlign: "left", color: "white" }}>
+            <span className="d-md-flex d-sm-block" style={{ textAlign: "left", color: "white" }}>
               <p>Full Stack Developer</p>
               <p className="ms-auto">  May 2023 - January 2024</p>
 
@@ -103,12 +103,12 @@ const Experience = () => {
             <hr style={{ color: "white" }}></hr>
 
 
-            <span className="d-flex">
+            <span className="d-md-flex d-sm-block">
               <p>Capgemini Technology Services ~ <u><b>Client - GE Healthcare</b></u></p>
               <p>Full Stack Developer</p>
               <p className="ms-auto"> Bengaluru</p>
             </span>
-            <span className="d-flex" style={{ textAlign: "left", color: "white" }}>
+            <span className="d-md-flex d-sm-block" style={{ textAlign: "left", color: "white" }}>
               <p>Full Stack Developer</p>
               <p className="ms-auto"> July 2021 - May 2023</p>
 
@@ -159,7 +159,7 @@ const Experience = () => {
               and ease-of-use of their products.
             </p>
           </Fade>
-          <div className="d-flex">
+          <div className="d-md-flex d-sm-block">
             <Fade direction="left">
               <div>
                 <img className="img-fluid dash" alt="img" src={dash} />
@@ -184,7 +184,7 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="d-flex">
+          <div className="d-md-flex d-sm-block">
             <div className="dash_pp">
               <Fade direction="left">
                 <p
@@ -216,7 +216,7 @@ const Experience = () => {
             </Fade>
           </div>
 
-          <div className="d-flex">
+          <div className="d-md-flex d-sm-block">
             <div className="dash_pp">
               <Fade direction="left">
                 <p>Designed Sample Screens for bookstore. </p>
@@ -240,7 +240,7 @@ const Experience = () => {
             </Fade>
           </div>
 
-          <div className="d-flex">
+          <div className="d-md-flex d-sm-block">
             <div className="dash_pp">
               <Fade direction="left">
                 <p>

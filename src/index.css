@@ -19,7 +19,8 @@ html {
 :root {
   background-color: #116A7B;
 
-/*   
+
+  /*   
   --color-bg: #242426;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
@@ -40,5 +41,5 @@ html {
 } */
 
 body {
- margin-top: 70px;
+  margin-top: 70px;
 }
