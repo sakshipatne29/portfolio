@@ -12,32 +12,21 @@ const Projects = () => {
           </Fade>
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="project">
-              <p className="heading">Feedback Mangement System</p>
+              <p className="heading">Equity News Research Tool (Generative AI Project)</p>
               <p>
-                I designed a WebEDI platform for APTIV, functioning as an
-                intermediary between suppliers and consumers in the automotive
-                parts ordering process. It incorporates advanced functionalities
-                to enhance user experience, such as personalized pagination,
-                filtering capabilities for data tables, and a fixed scrollable
-                sidebar. Developed using React JS and Bootstrap classes, the
-                website is powered by HTML, CSS, and JavaScript to ensure
-                seamless performance and user-friendly interface.
+                A user-friendly research tool refined for the financial industry, enabling users to effortlessly retrieve insights from stock market and financial news. The tool processes article content using LangChain's UnstructuredURL Loader and generates embedding vectors via OpenAI embeddings, leveraging FAISS for fast similarity-based information retrieval. The Streamlit interface allows users to query an LLM (ChatGPT) and receive detailed responses with source URLs, providing real-time, accurate analysis in a seamless, intuitive UI.
               </p>
+              <p><u style={{ color: "greenyellow" }}>Tech Stack</u> ~ LLM, FAISS, Embeddings, LangChain's UnstructuredURL Loader, Streamlit</p>
             </div>
           </div>
 
           <div className="col-lg-6 col-md-12 col-sm-12">
             <div className="project">
-              <p className="heading">Portfolio</p>
+              <p className="heading">Learning Management System (LMS)</p>
               <p>
-                I developed acomprehensive Time &Attendance system aimed at
-                managing employee attendance, leave records, and work reports
-                efficiently. This project boasts an advanced analytics dashboard
-                featuring bar graphs, line charts, and pie charts using React JS
-                and Bootstrap classes for the front end, leveraging HTML, CSS,
-                and JavaScript to ensure seamless functionality and user
-                experience.
+                A comprehensive LMS built using Django for the backend, ReactJS for the UI, and MongoDB for the database, offering role-based functionality for both students and admins. The system includes authentication and analytics to enhance management and user experience. Admins can manage student registrations, track course progress, handle certifications, and perform full CRUD operations on student profiles, all while monitoring course enrollments and certification statistics. Students can register for multiple courses, track their learning progress, and receive certificates upon course completion.
               </p>
+              <p><u style={{ color: "greenyellow" }}> Tech Stack ~</u> React JS, Django, MongoDB </p>
             </div>
           </div>
         </div>

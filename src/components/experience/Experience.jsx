@@ -19,11 +19,17 @@ const Experience = () => {
               Work Experience
             </h2>
             <span className="d-flex">
-              <p>Full Stack Developer, Tata Consultancy Services </p>
-              <p className="ms-auto"> May 2023 - Present</p>
+              <p>Tata Consultancy Services ~ <u> <b>Client - Aptiv - Automotive Technology Supplier</b></u> </p> <br></br>
+              <p className="ms-auto"> Bengaluru</p>
             </span>
+            <span className="d-flex" style={{ textAlign: "left", color: "white" }}>
+              <p>Full Stack Developer</p>
+              <p className="ms-auto"> January 2024 - Present</p>
+
+            </span>
+
             <ul
-              className="ms-5"
+              className="ms-5 mt-2"
               style={{
                 color: "white",
                 width: "910px",
@@ -32,48 +38,41 @@ const Experience = () => {
               }}
             >
               <li>
-                Developed and maintained a responsive website from scratch using
-                React.js, improving load times by 60%.
+                Engineered a React.js-based responsive website, reducing load times by 70% and enhancing user experience through
+                optimized styling with Bootstrap.
               </li>
               <li>
-                Implemented authentication and authorization functionalities for
-                secure user access.
+                Planned and implemented a scalable role-based access control system, cutting application downtime by 30% and
+                improving security measures.
               </li>
               <li>
-                Utilized Bootstrap, an open-source framework, for additional
-                styling and layout enhancements.
+                Developed and deployed multi-language support, expanding accessibility to a global audience in English, Chinese,
+                and Spanish, increasing user adoption by 70%.
               </li>
               <li>
-                Integrated multi-language support (Chinese, Spanish) using
-                i18next, enhancing user accessibility.
+                Enhanced session handling by integrating local storage and session storage, improving application state
+                management and reducing session-related issues by 40%
               </li>
               <li>
-                Developed role-based access functionality, enabling users to
-                view pages and perform actions based on assigned roles, reducing
-                downtime of the application by 30%.
+                Analyzed and integrated RESTful APIs using FASTAPI and Python, ensuring seamless backend connectivity and
+                enhancing system efficiency by 60%.
               </li>
               <li>
-                Managed data storage and session management using local and
-                session storage, including session timeout implementation
+                Validated and secured API requests using Pydantic, and implemented automated testing with Pytest, increasing test
+                coverage by 30% and reducing production bugs by 50%.
               </li>
-              <li>
-                Utilized JavaScript and Node.js for backend development,
-                crafting and integrating RESTful APIs.
-              </li>
-              <li>
-                Handled ad-hoc development tasks, delivering multiple features
-                within Agile two-week sprints.
-              </li>
-              <li>
-                Collaborated in cross-functional teams, participating in code
-                reviews and design discussions.
-              </li>
+
             </ul>
             <hr style={{ color: "white" }}></hr>
 
             <span className="d-flex">
-              <p>Full Stack Developer, Capgemini Technology Services</p>
-              <p className="ms-auto"> July 2021 - May 2023</p>
+              <p>Tata Consultancy Services ~ <u><b>Internal </b></u> </p><br></br>
+              <p className="ms-auto">Bengaluru</p>
+            </span>
+            <span className="d-flex" style={{ textAlign: "left", color: "white" }}>
+              <p>Full Stack Developer</p>
+              <p className="ms-auto">  May 2023 - January 2024</p>
+
             </span>
             <ul
               className="ms-5"
@@ -85,33 +84,63 @@ const Experience = () => {
               }}
             >
               <li>
-                Upgraded user experience by 30% through the implementation of
-                interactive dashboards with charts and graphs, saving users 20%
-                time.
+                Designed a scalable authentication service using FAST API and JWT, securing session management and token
+                refresh, reducing authentication failures by 30%
               </li>
               <li>
-                Developed and implemented pagination functionality in the
-                backend, enabling data fetching and display per user scroll,
-                with 25 or 50 records per scroll.
+                Optimized React architecture by executing design patterns like Higher-Order Components and State management
+                libraries, improving code reusability by 40%.
               </li>
               <li>
-                Created a scalable and responsive application for monitoring and
-                tracking time and attendance, leaves, holidays, working hours,
-                and included numerous additional features for employees and
-                managers.
-              </li>
-              <li>Developed log-in and log-out functionality.</li>
-              <li>
-                Performed complex queries and collaborated cross teams and
-                connected with multiple international clients and resolved their
-                queries and tickets.
+                Developed an email-based password reset feature, enhancing account recovery efficiency and reducing user
+                support tickets by 25%.
               </li>
               <li>
-                Developed a comprehensive feedback management system capable of
-                enabling CRUD operations. The system supports individual
-                feedback retrieval and displays a list of feedback entries,
-                ensuring efficient user interaction and data management.
+                Strengthened security by integrating password hashing and data encryption, minimizing vulnerabilities and ensuring
+                100% compliance with security standards.
               </li>
+            </ul>
+            <hr style={{ color: "white" }}></hr>
+
+
+            <span className="d-flex">
+              <p>Capgemini Technology Services ~ <u><b>Client - GE Healthcare</b></u></p>
+              <p>Full Stack Developer</p>
+              <p className="ms-auto"> Bengaluru</p>
+            </span>
+            <span className="d-flex" style={{ textAlign: "left", color: "white" }}>
+              <p>Full Stack Developer</p>
+              <p className="ms-auto"> July 2021 - May 2023</p>
+
+            </span>
+            <ul
+              className="ms-5"
+              style={{
+                color: "white",
+                width: "910px",
+                textAlign: "justify",
+                fontFamily: "Arial, Helvetica, sans-serif",
+              }}
+            >
+              <li>
+                Created robust, scalable, and responsive web applications using JavaScript and modern frameworks, accelerating
+                development efficiency by 40% while ensuring seamless cross-functional team collaboration.
+              </li>
+              <li>
+                Streamlined user experience, leading to a 30% increase in engagement by developing interactive dashboards with
+                charts and graphs, reducing navigation time by 20%.
+              </li>
+              <li>
+                Enforced high-performance pagination, reducing backend query load by 35% and enabling seamless data retrieval
+                per user scroll (handling 25–50 records dynamically).
+              </li>
+              <li>Designed and launched a time-tracking system that automated attendance, leave, and working hour monitoring,
+                cutting manual tracking errors by 50% and improving compliance..</li>
+              <li>
+                Resolved 95% of client-reported SQL query issues by executing complex queries, collaborating with international
+                clients, and ensuring prompt ticket resolution.
+              </li>
+
             </ul>
             <hr style={{ color: "white" }}></hr>
 

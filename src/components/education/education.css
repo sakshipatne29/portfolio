@@ -1,13 +1,14 @@
 #education {
   background-color: black;
-  height: 660px;
-  }
+  height: 690px;
+}
+
 .title-part {
   font-size: 25px;
   margin-top: 25px;
   margin-bottom: 3rem;
   color: white;
-} 
+}
 
 
 
@@ -16,15 +17,16 @@
   color: white;
   text-align: left;
 }
+
 .outside-icons {
-   background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.texts p{
+.texts p {
   color: white;
 }
 
- .icons {
+.icons {
   font-size: 45px;
   color: white;
   display: grid;
@@ -32,7 +34,8 @@
   gap: 15px;
   /* color: rgb(75, 190, 225); */
 }
- .icons .p-text {
+
+.icons .p-text {
   color: white;
   text-align: left;
   font-weight: 100;
@@ -53,7 +56,7 @@
   list-style: none;
 }
 
- .icons li .tooltip {
+.icons li .tooltip {
   position: absolute;
   top: 2px;
   /* z-index: 3; */
@@ -64,6 +67,7 @@
   pointer-events: none;
   opacity: 0;
 }
+
 .icons li:hover .tooltip {
   pointer-events: auto;
   opacity: 1;

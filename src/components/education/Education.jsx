@@ -4,9 +4,9 @@ import bg from "../../assets/bg.png";
 import restapi from "../../assets/restapi.png";
 import figma from "../../assets/Figma.png";
 import { Fade } from "react-awesome-reveal";
-import { SiMongodb, SiSqlite, SiOracle, SiPostman, SiDocker, SiRecoil, SiChartdotjs, SiI18Next  } from "react-icons/si";
+import { SiMongodb, SiSqlite, SiOracle, SiPostman, SiDocker, SiRecoil, SiChartdotjs, SiI18Next } from "react-icons/si";
 import { GrReactjs } from "react-icons/gr";
-import { FaNodeJs, FaNpm  } from "react-icons/fa6";
+import { FaNodeJs, FaNpm } from "react-icons/fa6";
 
 import { BiLogoJavascript } from "react-icons/bi";
 import { IoLogoPython } from "react-icons/io";
@@ -110,7 +110,7 @@ const Education = () => {
                 <div className="d-flex">
                   <p className="mt-4"> Libraries/Frameworks:</p>
                   <li className="">
-                    <FaNpm  style={{ backgroundColor: "#FF4C4C", color:"white" }} />
+                    <FaNpm style={{ backgroundColor: "#FF4C4C", color: "white" }} />
                     <span className="tooltip">Node Package Manager(NPM)</span>
                   </li>
                   <li className="ms-2">
@@ -118,7 +118,7 @@ const Education = () => {
                     <span className="tooltip">Bootstrap</span>
                   </li>
                   <li className="ms-2">
-                    <SiRecoil style={{ color: "white", backgroundColor:"#008DDA" }} />
+                    <SiRecoil style={{ color: "white", backgroundColor: "#008DDA" }} />
                     <span className="tooltip">Recoil JS</span>
                   </li>
                   <li className="ms-2">
@@ -126,7 +126,7 @@ const Education = () => {
                     <span className="tooltip">Chart JS</span>
                   </li>
                   <li className="ms-2">
-                    <SiI18Next  style={{ color: "#219C90" }} />
+                    <SiI18Next style={{ color: "#219C90" }} />
                     <span className="tooltip">i18next</span>
                   </li>
                 </div>
@@ -139,11 +139,11 @@ const Education = () => {
                     <span className="tooltip">Git(version control)</span>
                   </li>
                   <li className="ms-2">
-                    <SiPostman  style={{ color: "#FF6500", background:"white" }} />
+                    <SiPostman style={{ color: "#FF6500", background: "white" }} />
                     <span className="tooltip">Postman</span>
                   </li>
                   <li className="ms-2">
-                    <SiDocker   style={{ color: "#03AED2" }} />
+                    <SiDocker style={{ color: "#03AED2" }} />
                     <span className="tooltip">Docker</span>
                   </li>
                   <img
@@ -153,13 +153,13 @@ const Education = () => {
                     style={{ height: "40px", width: "100%" }}
                   />
                   <p
-                      className="mt-4 ms-1"
-                      style={{
-                        width: "50px"
-                      }}
-                    >
-                      (Figma)
-                    </p>
+                    className="mt-4 ms-1"
+                    style={{
+                      width: "50px"
+                    }}
+                  >
+                    (Figma)
+                  </p>
                   {/* <li className="ms-2">
                     <SiFigma   style={{  background: "linear-gradient(90deg, rgba(236,3,8,0.499124649859944) 6%, rgba(157,22,2,1) 23%, rgba(228,87,22,0.8576680672268908) 35%, rgba(16,222,188,1) 55%, rgba(20,94,6,1) 83%)"
  }} />
@@ -178,12 +178,12 @@ const Education = () => {
 
           <div className="col-lg-6 col-md-12 col-sm-12">
             <Fade direction="right">
-              <div className="img-parts mb-4">
+              <div className="img-parts">
                 <img className="img-fluid" src={bg} alt="pic" />
               </div>
             </Fade>
           </div>
-        </div> 
+        </div>
       </div>
     </section>
   );

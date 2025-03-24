@@ -4,12 +4,13 @@
 
 }
 
-.project p{
-    text-align: left;
+.project p {
+    text-align: justify;
     color: white;
+
 }
 
-.heading {
+.project .heading {
     font-size: 22px;
     border-bottom: 2px solid yellowgreen;
 }
