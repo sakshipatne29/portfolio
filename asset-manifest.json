@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7dba4be0.css",
+    "main.js": "/portfolio/static/js/main.ccc76644.js",
+    "static/media/IMG_E4836.JPG": "/portfolio/static/media/IMG_E4836.ea2bb99f8a15c3ae7492.JPG",
+    "static/media/BookStore.png": "/portfolio/static/media/BookStore.85b6febb4d48ef0509e5.png",
+    "static/media/Blushup.png": "/portfolio/static/media/Blushup.257df8fb3e515be13ca0.png",
+    "static/media/newfur.PNG": "/portfolio/static/media/newfur.675acc23a362dd8f972f.PNG",
+    "static/media/Figma.png": "/portfolio/static/media/Figma.77f3812a73a036d5ad9a.png",
+    "static/media/dash.png": "/portfolio/static/media/dash.f467a006f67de0498a8e.png",
+    "static/media/bg.png": "/portfolio/static/media/bg.ede8bac0229f8ee632ce.png",
+    "static/media/restapi.png": "/portfolio/static/media/restapi.82db909f12543920186f.png",
+    "static/media/sakshi2.png": "/portfolio/static/media/sakshi2.1fe3b04baf83c1d3e7ab.png",
+    "index.html": "/portfolio/index.html",
+    "main.7dba4be0.css.map": "/portfolio/static/css/main.7dba4be0.css.map",
+    "main.ccc76644.js.map": "/portfolio/static/js/main.ccc76644.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dba4be0.css",
+    "static/js/main.ccc76644.js"
+  ]
+}
